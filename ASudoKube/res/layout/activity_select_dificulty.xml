@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#E6E6E6"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Level of Mastery"
+        android:textColor="#000000"
+        android:textSize="@dimen/text_big" />
+
+    <ListView
+        android:id="@+id/listSelectDifficulty"
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:background="#E6E6E6"
+        android:drawSelectorOnTop="false" >
+    </ListView>
+
+
+    <com.tapit.adview.AdView
+        android:id="@+id/bannerAd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        zone="REMOVED" />
+
+</LinearLayout>

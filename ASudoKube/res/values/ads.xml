@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<resources>
+		<string name="ads_test_emulators">TEST_EMULATOR</string>
+		<string name="ads_tapit_id_select_difficulty">REMOVED</string>
+		<string name="ads_tapit_id_leaderboard">REMOVED</string>
+		<string name="ads_tapit_id_congrats">REMOVED</string>
+	</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+	<issue id="ParserError" severity="ignore" />
+    <string name="ga_api_key">UA–34622256-1</string>
+
+</lint>

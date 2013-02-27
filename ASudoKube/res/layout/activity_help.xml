@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/splash_image_gray"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+               <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/str_help"
+        android:textColor="#000000"
+        android:textSize="@dimen/text_verybig" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:paddingTop="@dimen/padding_medium"
+        android:text="@string/str_learn_mode"
+        android:textColor="#000000"
+        android:textSize="@dimen/text_big" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:text="Challenge yourself! Starting from very the simple, unlock harder modes as you improve."
+        android:textColor="#000000"
+        android:textSize="@dimen/text_medium" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:paddingTop="@dimen/padding_medium"
+        android:text="@string/str_free_play"
+        android:textColor="#000000"
+        android:textSize="@dimen/text_big" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:text="Have fun and enjoy stress free play with the Rubik&apos;s cube."
+        android:textColor="#000000"
+        android:textSize="@dimen/text_medium" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:paddingTop="@dimen/padding_medium"
+        android:text="@string/str_help"
+        android:textColor="#000000"
+        android:textSize="@dimen/text_big" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:text="This screen. Hope you enjoy!"
+        android:textColor="#000000"
+        android:textSize="@dimen/text_medium" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

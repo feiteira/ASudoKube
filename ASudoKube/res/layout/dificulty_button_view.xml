@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:background="#E6E6E6"
+    android:onClick="onDifficultyClick"
+    android:padding="6dip" >
+
+    <ImageView
+        android:id="@+id/btnDifficulty_Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="6dip"
+        android:src="@drawable/ic_menu_about" />
+
+    <TextView
+        android:id="@+id/btnDifficulty_second_line"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/btnDifficulty_Icon"
+        android:ellipsize="marquee"
+        android:text="Simple application"
+        android:textColor="#000000"
+        android:textStyle="italic|normal" />
+
+    <TextView
+        android:id="@+id/btnDifficulty_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnDifficulty_second_line"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_toRightOf="@id/btnDifficulty_Icon"
+        android:gravity="center_vertical"
+        android:text="My Application"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/btnDifficulty_showBestTime"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentTop="false"
+        android:layout_alignWithParentIfMissing="true"
+        android:gravity="center_vertical|right|center_horizontal|bottom"
+        android:paddingRight="@dimen/padding_medium"
+        android:text="0.0 "
+        android:textColor="#000000"
+        android:textStyle="italic|normal" />
+
+</RelativeLayout>
