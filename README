@@ -3,9 +3,14 @@ This is basically the source code of the application found in:
 https://play.google.com/store/apps/details?id=com.kapouta.asudokube
 
 
+You'll need to open three projects:
+ASudoKube
+AurubikLib (a generic library to manipulate 3x3x3 cubes)
+KATools (https://github.com/feiteira/KATools - An upgrade on Android Analytics Lib v1) - this may be removed with litle refactoring, simply replace all "extends KActivity" with"extends Activity"
+
 Enjoy and good luck!
 
 All code here is GPL3 (http://www.gnu.org/licenses/gpl-3.0.html)
 
 
-José Luís Feiteirinha 2013
+JosÃ© LuÃ­s Feiteirinha 2013
