@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ASudoKube.iml" filepath="$PROJECT_DIR$/ASudoKube.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aurubik/aurubik.iml" filepath="$PROJECT_DIR$/aurubik/aurubik.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aurubikLib/aurubikLib.iml" filepath="$PROJECT_DIR$/aurubikLib/aurubikLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kATools/kATools.iml" filepath="$PROJECT_DIR$/kATools/kATools.iml" />
+    </modules>
+  </component>
+</project>

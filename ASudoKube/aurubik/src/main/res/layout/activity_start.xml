@@ -1,0 +1,80 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentLeft="true"
+    android:background="@drawable/splash_image"
+    android:theme="@android:style/Theme.Dialog" >
+
+    <LinearLayout
+        android:id="@+id/llayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="16dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/margin_default"
+            android:layout_marginTop="@dimen/margin_default"
+            android:gravity="center_vertical|center_horizontal"
+            android:lines="1"
+            android:minWidth="@dimen/min_width_default"
+            android:onClick="onFreePlayClick"
+            android:paddingBottom="@dimen/padding_large"
+            android:paddingLeft="@dimen/padding_large"
+            android:paddingRight="@dimen/padding_large"
+            android:paddingTop="@dimen/padding_large"
+            android:text="@string/appname"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
+            android:textSize="60dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnFreePlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/margin_default"
+            android:layout_marginTop="@dimen/margin_default"
+            android:background="#99000000"
+            android:drawableRight="@drawable/ic_play"
+            android:gravity="left|center_vertical"
+            android:minWidth="@dimen/min_width_default"
+            android:onClick="onLearnModeClick"
+            android:paddingBottom="@dimen/padding_large"
+            android:paddingLeft="@dimen/padding_large"
+            android:paddingRight="@dimen/padding_large"
+            android:paddingTop="@dimen/padding_large"
+            android:text="@string/str_learn_mode"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/text_big" />
+
+        <Button
+            android:id="@+id/btnLearnMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/margin_default"
+            android:layout_marginTop="@dimen/margin_default"
+            android:background="#99000000"
+            android:drawableRight="@drawable/ic_start_learn"
+            android:gravity="left|center_vertical"
+            android:minWidth="@dimen/min_width_default"
+            android:onClick="onFreePlayClick"
+            android:paddingBottom="@dimen/padding_large"
+            android:paddingLeft="@dimen/padding_large"
+            android:paddingRight="@dimen/padding_large"
+            android:paddingTop="@dimen/padding_large"
+            android:text="@string/str_free_play"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/text_big" />
+
+    </LinearLayout>
+
+</FrameLayout>
